@@ -22,4 +22,9 @@ unpack() {
   true
 }
 
+unset -f pre_build
+pre_build() {
+  true
+}
+
 # vim: ts=2 sw=2 et
